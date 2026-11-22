@@ -638,9 +638,9 @@ export function SetupScreen({
                       )}
                     </div>
 
-                    {/* Two Screenshot Uploaders: Invitation & Promo */}
+                    {/* Two Screenshot Uploaders: Deposit & Promo */}
                     <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-                      {/* Invitation Screenshot */}
+                      {/* Deposit Screenshot */}
                       <div className="flex flex-col">
                         <span className="mb-1.5 block text-[11px] font-black text-white/75">
                           {t.inviteScreenLabel}
@@ -659,7 +659,7 @@ export function SetupScreen({
                               <button
                                 type="button"
                                 onClick={() => handleRemoveScreen('invite')}
-                                aria-label="Remove invitation screenshot"
+                                aria-label="Remove deposit screenshot"
                                 className="flex h-6 w-6 shrink-0 cursor-pointer items-center justify-center rounded-lg bg-red-500/15 text-red-400 transition-colors hover:bg-red-500/25"
                               >
                                 <Trash2 className="h-3.5 w-3.5" />
