@@ -14,7 +14,7 @@ export const PLATFORM = {
   brandTitle: 'Khloud',
   promoCode: 'ASD33',
   registrationUrl:
-    'https://refpa96317.com/L?tag=d_5108633m_11213c_&site=5108633&ad=11213&r=registration',
+    'https://che.fluxbrox.com/redirect.aspx?bid=1484&lpid=223&pid=189305',
   telegramUrl: 'https://t.me/+-RZqYTzCFbphNjNk',
 } as const;
 
@@ -68,6 +68,7 @@ export const TRANSLATIONS = {
     approvedPromo: 'كود البروموكود المعتمد',
     copyCode: 'نسخ الكود',
     copied: 'تم النسخ!',
+    openPlatformBtn: 'الدخول إلى المنصة',
     step2Label: 'الشرط الثاني',
     step2Title: 'إيداع التفعيل الأول',
     step2Desc:
@@ -169,6 +170,7 @@ export const TRANSLATIONS = {
     approvedPromo: 'Verified Promo Code',
     copyCode: 'Copy Code',
     copied: 'Copied!',
+    openPlatformBtn: 'Open Platform',
     step2Label: 'Step 02',
     step2Title: 'First Activation Deposit',
     step2Desc:

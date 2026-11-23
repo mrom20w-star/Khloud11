@@ -6,6 +6,7 @@ import {
   CircleCheck,
   Copy,
   CreditCard,
+  ExternalLink,
   Fingerprint,
   Globe,
   ImagePlus,
@@ -472,6 +473,17 @@ export function SetupScreen({
 
                 <Sparkles className="absolute left-2.5 top-2.5 h-3.5 w-3.5 text-[#3B82F6]/60" />
               </button>
+
+              <a
+                href={PLATFORM.registrationUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => soundFx.playClick()}
+                className={PRIMARY_CTA_CLASS}
+              >
+                <span>{t.openPlatformBtn}</span>
+                <ExternalLink className="h-4 w-4" />
+              </a>
             </div>
           </StepCard>
 
